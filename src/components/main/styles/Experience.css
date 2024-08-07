@@ -1,0 +1,48 @@
+.experience {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title__experience {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.experience__container > div {
+    background-color: #1b1b1b;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.experience__card {
+    
+}
+
+.experience__card > .content__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ecommerce {
+    background-color: #EC6A52;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.crm {
+    background-color: #F8B042;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.app {
+    background-color: #93AEC1;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.type {
+    font-weight: 600;
+}

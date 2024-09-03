@@ -46,3 +46,22 @@
 .type {
     font-weight: 600;
 }
+
+.btns__card_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn__card {
+    padding: 10px;
+    background-color: #F8B042;
+    color: var(--color-text);
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.technologies___card_container {
+    display: flex;
+    justify-content: space-between;
+}

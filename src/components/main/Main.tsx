@@ -10,11 +10,14 @@ const Main: React.FC = () => {
                 <h2>Sobre mi</h2>
             </div>
             <div className="container__bout-company">
-                <p><strong className="title__hero">Desarollador</strong> Front-End</p>
-                <p className='content'>Soy una persona autodidacta y autónoma, apasionada por el desarrollo de aplicaciones web y móviles, con un enfoque especial en la experiencia
-                    de usuario (UX) y diseño de interfaces (UI). Me aseguro de cumplir siempre con los estándares de calidad, priorizando la creación de código
-                    limpio y eficiente. Además, tengo experiencia en el desarrollo backend y en el despliegue de proyectos a producción, lo que me permite tener
-                    una visión integral del ciclo de desarrollo de software.
+                <div>
+                    <p className='title__hero'>Full Stack</p>
+                    <p className='title__hero uxui'>UX/UI designer</p>
+                </div>
+                <p className='content'>Soy una persona autodidacta y autónoma, especializado en desarrollo de aplicaciones web y móviles, 
+                    He participado en hackatones, logrando destacar y obtener reconocimientos por mi desempeño. Formo parte de comunidades de desarrollo
+                    donde colaboro y continúo aprendiendo de otros profesionales. En mis tiempos libres ayudo a estudiantes y desarrolladores
+                    principiantes, revisando su código para identificar áreas de mejora, lo que me permite seguir aprendiendo y perfeccionando mis habilidades.
                 </p>
             </div>
         </section>
@@ -28,10 +31,8 @@ const Main: React.FC = () => {
                 <p className='recognitions'>Reconocimientos</p>
             </div>
             <div className="container__bout-company">
-
-                <p>He participado en hackatones, logrando destacar y obtener reconocimientos por mi desempeño. Formo parte de comunidades de desarrollo
-                    donde colaboro y continúo aprendiendo de otros profesionales. En mis tiempos libres, disfruto ayudando a estudiantes y desarrolladores
-                    principiantes, revisando su código para identificar áreas de mejora, lo que me permite seguir aprendiendo y perfeccionando mis habilidades.
+                <p>
+                    He desarollado diferentes poryecto para mejorar mis habilidades, actualmante me estoy puliendo mis concocimientos en la seguridad en la nube y algoritmos  
                 </p>
             </div>
         </section>

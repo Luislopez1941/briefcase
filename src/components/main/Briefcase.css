@@ -29,8 +29,20 @@
   }
 
   .briefcase__card_container {
+   
+  }
+
+  .ecommerce-01 {
     height: 100%;
     background-image: url('../../assets//commerce.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  
+  .cms-01 {
+    height: 100%;
+    background-image: url('../../assets/briefcase/cms-01.png');
     background-position: center;
     background-size: cover;
     border-radius: 10px;

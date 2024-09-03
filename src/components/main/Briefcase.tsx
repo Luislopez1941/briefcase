@@ -25,16 +25,18 @@ const Briefcase: React.FC = () => {
         >
             <SwiperSlide>
                 <div className='briefcase__card'>
-                    <div className='briefcase__card_container'>
+                    <div className='briefcase__card_container ecommerce-01'>
 
                     </div>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div className='briefcase__card'>
-                    <div className='briefcase__card_container'>
+                    <a href="https://ecommer-01.vercel.app" target="_blank" rel="noopener noreferrer">
+                        <div className='briefcase__card_container cms-01'>
 
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </SwiperSlide>
             <SwiperSlide>

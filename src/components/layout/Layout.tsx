@@ -10,7 +10,7 @@ const Layout: React.FC = () => {
                     <div className="left__content">
                         <h1>Software Engineer</h1>
                         <h3> 
-                            Soy un desarrollador apasionado especializado en la creación de soluciones digitales innovadoras tanto para plataformas web como para móviles.
+                            Soy desarrollador especializado en la creación de soluciones digitales innovadoras tanto para plataformas web como para móviles.
                         </h3>
                         <div className="btns__container_hero">
                                 <a className="cta_one">Descargar cv</a>

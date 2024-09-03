@@ -22,8 +22,10 @@
   }
   
   .title__hero {
+    background-color: #ebbe7b33;
+    padding: 5px;
     color: var(--color-yellow);
-    font-size: 1.3rem;
+    border-radius: 5px;
     font-weight: 600;
   }
 /*   
@@ -56,6 +58,14 @@
     border-radius: 5px;
     color: #EC6A52;
   
+   }
+
+   .container__bout-company > div {
+    display: flex;
+   }
+
+   .container__bout-company > div .uxui {
+      margin-left: 10px;
    }
 
 

@@ -11,8 +11,11 @@ import NestJS from '../../utils/svgs/Nestjs'
 import Python from '../../utils/svgs/Python'
 import MySQL from '../../utils/svgs/Mysql'
 import FastAPI from '../../utils/svgs/FastAPI'
+import Nextjs from '../../utils/svgs/Nextjs'
+import TailwindCSS from '../../utils/svgs/Tailwind'
 
 import MongoDB from '../../utils/svgs/MongoDB'
+
 
 const Experience: React.FC = () => {
   return (
@@ -75,9 +78,9 @@ const Experience: React.FC = () => {
             </div>
             <p className='type'>Full Stack</p>
             <div className='technologies___card_container'>
-                <ReactSvg />
+                <Nextjs />
                 <Redux />
-                <CSS />
+                <TailwindCSS />
                 <Python />
                 <FastAPI />
                 <AmazonWebServices />

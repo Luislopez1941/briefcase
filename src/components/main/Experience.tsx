@@ -68,7 +68,7 @@ const Experience: React.FC = () => {
             <div className='btns__card_container'>
                 <a href="https://ecommer-01.vercel.app" className="btn__card" target="_blank" rel="noopener noreferrer">Ver CRM</a>
                 <button className='btn__card'>Ver Ecommer</button>
-                <a href="https://jllc-back.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
+                <a href="https://back-ecommerce-bjt2.onrender.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
             </div>
         </div>
         <div className='experience__card'>

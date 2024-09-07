@@ -13,8 +13,10 @@ import MySQL from '../../utils/svgs/Mysql'
 import FastAPI from '../../utils/svgs/FastAPI'
 import Nextjs from '../../utils/svgs/Nextjs'
 import TailwindCSS from '../../utils/svgs/Tailwind'
-
+import Vue from '../../utils/svgs/Vue'
 import MongoDB from '../../utils/svgs/MongoDB'
+import JavaScript from '../../utils/svgs/Javascript'
+import Pinia from '../../assets/pinia.svg'
 
 
 const Experience: React.FC = () => {
@@ -66,7 +68,7 @@ const Experience: React.FC = () => {
                 </p>
             </div>
             <div className='btns__card_container'>
-                <a href="https://ecommer-01.vercel.app" className="btn__card" target="_blank" rel="noopener noreferrer">Ver CRM</a>
+                <a href="https://cms-01.vercel.app/login" className="btn__card" target="_blank" rel="noopener noreferrer">Ver CRM</a>
                 <button className='btn__card'>Ver Ecommer</button>
                 <a href="https://back-ecommerce-bjt2.onrender.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
             </div>
@@ -94,9 +96,9 @@ const Experience: React.FC = () => {
                 </p>
             </div>
             <div className='btns__card_container'>
-                <button className='btn__card'>Ver CRM</button>
+                <a href="https://cms-02.vercel.app" className="btn__card" target="_blank" rel="noopener noreferrer">Ver CRM</a>
                 <button className='btn__card'>Ver Ecommer</button>
-                <button className='btn__card'>Ver Doc. Backend</button>
+                <a href="https://back-ecommerce-bjt2.onrender.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
             </div>
         </div>
         <div className='experience__card'>
@@ -107,7 +109,6 @@ const Experience: React.FC = () => {
             <p className='type'>Full Stack</p>
             <div className='technologies___card_container'>
                 <Angular /> 
-                
                 <CSS />
                 <TypeScript />
                 <AmazonWebServices />
@@ -120,6 +121,37 @@ const Experience: React.FC = () => {
                     De igual forma, me encargué de realizar todo el análisis de la logística para comenzar con la base de datos, back, front, desarrollo y producción.
                 </p>
             </div>
+            <div className='btns__card_container'>
+                <a href="https://cms-03.vercel.app" className="btn__card" target="_blank" rel="noopener noreferrer">Ver CRM</a>
+                <button className='btn__card'>Ver Ecommer</button>
+                <a href="https://back-ecommerce-bjt2.onrender.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
+            </div>
+        </div>
+        <div className='experience__card'>
+            <div className='content__title'>
+                <p>Frelance</p>
+                <p className='crm'>Algoritmos</p>
+            </div>
+            <p className='type'>Full Stack</p>
+            <div className='technologies___card_container'>
+                <Vue /> 
+                <img src={Pinia} alt="" />
+                <TailwindCSS />
+                <JavaScript />
+                <AmazonWebServices />
+                <MongoDB />
+                <Cloudflare />
+            </div>
+            <div>
+                <p>
+                    De igual forma, me encargué de realizar todo el análisis de la logística para comenzar con la base de datos, back, front, desarrollo y producción.
+                </p>
+            </div>
+            <div className='btns__card_container'>
+                <a href="https://cms-04.vercel.app" className="btn__card" target="_blank" rel="noopener noreferrer">Ver CRM</a>
+                <button className='btn__card'>Ver Ecommer</button>
+                <a href="https://back-ecommerce-bjt2.onrender.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
+            </div>
         </div>
         <div className='experience__card'>
             <div className='content__title'>
@@ -131,6 +163,11 @@ const Experience: React.FC = () => {
                 <p>
                     De igual forma, me encargué de realizar todo el análisis de la logística para comenzar con la base de datos, back, front, desarrollo y producción.
                 </p>
+            </div>
+            <div className='btns__card_container'>
+                <a href="https://cms-02.vercel.app" className="btn__card" target="_blank" rel="noopener noreferrer">Ver CRM</a>
+                <button className='btn__card'>Ver Ecommer</button>
+                <a href="https://back-ecommerce-bjt2.onrender.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
             </div>
         </div>
       </div>

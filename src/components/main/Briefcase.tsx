@@ -14,15 +14,14 @@ const Briefcase: React.FC = () => {
   return (
     <div className='briefcase'>
         <div>
-            <p className='title__briefcase'>Portafolio</p>
+            <p className='title__briefcase'>Briefcase</p>
         </div>
         <Swiper
             pagination={{
             dynamicBullets: true,
             }}
             modules={[Pagination]}
-            className="mySwiper"
-        >
+            className="mySwiper">
             <SwiperSlide>
                 <div className='briefcase__card'>
                     <div className='briefcase__card_container ecommerce-01'>
@@ -53,7 +52,6 @@ const Briefcase: React.FC = () => {
                     </div>
                 </div>
             </SwiperSlide>
-    
         </Swiper>
     </div>
   )

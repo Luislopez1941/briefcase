@@ -2,81 +2,49 @@
 
 .main {
 
-  }
+}
+
+.about__company {
+  width: 90%;
+  margin: 0 auto;
+  padding: 150px 0;
+}
+
+.container__about-company {
+  width: 60%;
+  height: 200px;
+  margin: 0 auto;
   
-  .about__company {
-    width: 90%;
-    margin: 0 auto;
-    padding: 150px 0;
-  }
+}
+
+.container__bout-company > div {
+  display: flex;
+}
+
+.container__bout-company > div .uxui {
+  margin-left: 10px;
+}
+
+
+.about__company_text h2 {
+  font-size: 2.5rem;
+}
+
+.title__hero {
+  background-color: #ebbe7b33;
+  padding: 5px;
+  color: var(--color-yellow);
+  border-radius: 5px;
+  font-weight: 600;
+}
   
-  .container__about-company {
-    width: 60%;
-    height: 200px;
-    margin: 0 auto;
-    
-  }
+
+@media screen and (max-width: 768px) {
+  .container__About-company {
+      width: 80%;
+      height: 300px;
+      margin: 0 auto;
   
-  .about__company_text h2 {
-    font-size: 2.5rem;
   }
-  
-  .title__hero {
-    background-color: #ebbe7b33;
-    padding: 5px;
-    color: var(--color-yellow);
-    border-radius: 5px;
-    font-weight: 600;
-  }
-/*   
-  .container__bout-company > .content {
-    text-align: justify;
-  }
-   */
-  
-   .additional {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-   }
-
-   .additional > p {
-    margin: 5px 0
-   }
-
-   .additional > .volunteering {
-    border: 2px solid #F8B042;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: #F8B042;
-   }
-
-   
-   .additional > .recognitions {
-    border: 2px solid #EC6A52;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: #EC6A52;
-  
-   }
-
-   .container__bout-company > div {
-    display: flex;
-   }
-
-   .container__bout-company > div .uxui {
-      margin-left: 10px;
-   }
-
-
-
-
-  @media screen and (max-width: 768px) {
-    .container__About-company {
-        width: 80%;
-        height: 300px;
-        margin: 0 auto;
-    
-    }
 
 }

@@ -74,6 +74,17 @@
     column-gap: 20px;
 }
 
+.warning__title {
+    display: flex;
+}
+
+.warning__title > p {
+    padding: 10px;
+    display: flex;
+    border: 2px solid var(--color-yellow);
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 768px) {
     .experience__container {
         display: grid;

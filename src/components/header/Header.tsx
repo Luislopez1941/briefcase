@@ -7,14 +7,14 @@ const [toggle, setToggle] = useState<boolean>(false)
     <header className="hero">
         <div className="hero__container">
             <div className="hero__logo">
-                <h2>JLLC</h2>
+                <h2 translate="no">JLLC</h2>
             </div>
             <nav className="nav__hero">
                 <ul className="nav__items">
-                    <li className="nav__item"><a href="" className="nav__link">Historia</a></li>
-                    <li className="nav__item"><a href="" className="nav__link">Servicios</a></li>
-                    <li className="nav__item"><a href="" className="nav__link">Portafolio</a></li>
-                    <li className="nav__item "><a href="" className="nav__link shade">Contacto</a></li>
+                    <li className="nav__item"><a href="" className="nav__link">History</a></li>
+                    <li className="nav__item"><a href="" className="nav__link">Services</a></li>
+                    <li className="nav__item"><a href="" className="nav__link">Briefcase</a></li>
+                    <li className="nav__item "><a href="" className="nav__link shade">Contact</a></li>
                 </ul>
             </nav>
             <div className='toggle' onClick={() => setToggle(!toggle)}>

@@ -33,6 +33,9 @@ const Experience: React.FC = () => {
   return (
     <div className='experience'>
       <p className='title__experience'>Experiencia</p>
+      <div className='warning__title'>
+        <p>Algunos de los proyectos todavía no están terminados</p>
+      </div>
       <div className='experience__container'>
         
         <div className='experience__card'>
@@ -90,8 +93,8 @@ const Experience: React.FC = () => {
             </div>
             <div>
                 <p>
-                Me encargué de realizar todo el análisis de la logística para crear la base de datos y, a partir de ahí, continuar con la creación del back y del frontend.
-                Además, me encargué de crear el entorno de desarrollo y de producción y de la seguridad en la nube.
+                    Me encargué de realizar todo el análisis de la logística para crear la base de datos y, a partir de ahí, continuar con la creación del back y del frontend.
+                    Además, me encargué de crear el entorno de desarrollo y de producción y de la seguridad en la nube.
                 </p>
             </div>
             <div className='btns__card_container'>

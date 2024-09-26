@@ -15,13 +15,13 @@ const Footer: React.FC = () => {
                 </div>
                 <div className="legal">
                     <h4>Legales</h4>
-                    <p>PolÍtica de privacidad</p>
-                    <p>Términos y condiciones</p>
-                    <p>PolÍtica de Cookies</p>
-                    <p>PolÍtica de terminos y condiciones  de contratación</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms and conditions</p>
+                    <p>Cookies Policy</p>
+                    <p>Contract terms and conditions policy</p>
                 </div>
                 <div className="contact">
-                    <h4>Contacto</h4>
+                    <h4>Contact</h4>
                     <div className="contact__item">
                         <i className="fa-brands fa-whatsapp"></i>
                         <p>+52 998 486 9828</p>
@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
 
                 </div>
                 <div className="social__networks">
-                    <h4>Redes Sociales</h4>
+                    <h4>Social networks</h4>
                     <div className="social__networks-item">
                         <i className="fa-brands fa-linkedin"></i>
                         <i className="fa-brands fa-facebook"></i>
@@ -51,8 +51,8 @@ const Footer: React.FC = () => {
             </div>
             <div className="final__foot">
                 <div>
-                    <h5>JLLC DISEÑO & DESARROLLO WEB</h5>
-                    <small>JLLC © 2023. Todos los derechos reservados.</small>
+                    <h5>JLLC DESING & WEB DEVELOPMENT</h5>
+                    <small>JLLC © 2023. All rights reserved.</small>
                 </div>
             </div>
             

@@ -7,7 +7,7 @@ const Main: React.FC = () => {
     <section className="main">
         <section className="about__company">
             <div className="about__company_text">
-                <h2>Sobre mi</h2>
+                <h2>About me</h2>
             </div>
             <div className="container__bout-company">
                 <div>

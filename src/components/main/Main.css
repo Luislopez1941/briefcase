@@ -83,7 +83,7 @@
 .education {
   width: 90%;
   margin: 0 auto;
-  padding: 150px 0;
+
 }
 
 .container__education {
@@ -135,7 +135,9 @@
 }
 
 
-  
+.education__additional {
+
+  }
 
 
   

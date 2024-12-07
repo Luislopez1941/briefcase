@@ -11,7 +11,6 @@ const Footer: React.FC = () => {
                         {/* <img src="./assest/images/logo-jllc.png" alt="Logo de la Empresa" /> */}
                         <h2>JLLC</h2>
                     </div>
-                    
                 </div>
                 <div className="legal">
                     <h4>Legales</h4>

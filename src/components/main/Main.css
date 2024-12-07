@@ -37,6 +37,107 @@
   border-radius: 5px;
   font-weight: 600;
 }
+
+
+
+
+.cybersecurity {
+  width: 90%;
+  margin: 0 auto;
+  padding: 150px 0;
+}
+
+.container__cybersecurity {
+
+  margin: 0 auto;
+  
+}
+
+.container__cybersecurity > div {
+  display: flex;
+}
+
+.container__cybersecurity > div .uxui {
+  margin-left: 10px;
+}
+
+
+.cybersecurity_text h2 {
+  font-size: 2.5rem;
+}
+
+.technologies__cybersecurity {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.technologies__cybersecurity {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+
+
+.education {
+  width: 90%;
+  margin: 0 auto;
+  padding: 150px 0;
+}
+
+.container__education {
+  margin: 0 auto;
+}
+
+.container__education > div {
+
+}
+
+.container__education .title-ut {
+  background-color: #00614a;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+
+.container__education .text-ut {
+  /* background-color: #00614a34;
+  border-radius: 5px;
+  padding: 10px;
+  color: #00614a; */
+  margin-right: 10px;
+}
+
+.container__education .account {
+  display: flex;
+}
+
+
+.container__education .title-utel {
+  background-color: #047806;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.container__education .button-title-account {
+  border: none;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.education_text h2 {
+  font-size: 2.5rem;
+}
+
+
+  
+
+
   
 
 @media screen and (max-width: 768px) {

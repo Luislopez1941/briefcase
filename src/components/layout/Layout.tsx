@@ -1,5 +1,6 @@
 import React from 'react'
 import './Layout.css'
+import cv from '../../assets/briefcase/pdfs/CV-Mid_developer.pdf'
 
 const Layout: React.FC = () => {
   return (
@@ -13,7 +14,7 @@ const Layout: React.FC = () => {
                             I am a developer specialized in creating innovative digital solutions for both web and mobile platforms.
                         </h3>
                         <div className="btns__container_hero">
-                                <a className="cta_one">Download cv</a>
+                                <a className="cta_one" onClick={() => window.open(cv, '_blank')}>Download cv</a>
                                 <a className="cta_two">Contact</a>
                         </div>
                     </div>

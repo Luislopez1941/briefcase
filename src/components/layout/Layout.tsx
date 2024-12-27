@@ -1,7 +1,6 @@
 import React from 'react'
 import './Layout.css'
 import cv from '../../assets/briefcase/pdfs/CV-Mid_developer.pdf'
-import { Link } from 'react-router-dom'
 
 const Layout: React.FC = () => {
     return (

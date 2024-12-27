@@ -1,7 +1,7 @@
 import React from 'react'
 import './Main.css'
 import Technologies from './Technologies'
-import nmanp from '../../assets/briefcase/sitelogo-2x.png'
+// import nmanp from '../../assets/briefcase/sitelogo-2x.png'
 import cedulaPDF from '../../assets/briefcase/pdfs/LOCJ010420HCSPRRA3.pdf'
 
 const Main: React.FC = () => {

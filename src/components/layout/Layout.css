@@ -28,20 +28,34 @@
 .left__content h1 {
     font-size: 3rem;
     font-weight: 700;
-
 }
 
   
 .left__content h3 {
     font-weight: 200;
     font-size: 1.25rem;
-    margin: 20px 0 40px 0;
+    margin: 20px 0;
+}
 
+.left__content .icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  gap: 20px; /* Espaciado entre los elementos */
+  margin: 40px 0;
+}
+
+
+.left__content .icons > div {
+  margin: 5px 20px;
+}
+
+.left__content .icons > a > svg {
+  fill: #ffffff;
+  width: 28px;
 }
 
 .btns__container_hero {
   display: flex;
-  
   width: 80%;
   justify-content: space-between;
   

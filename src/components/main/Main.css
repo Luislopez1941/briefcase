@@ -41,39 +41,28 @@
 
 
 
-.cybersecurity {
+.quantum__computing {
   width: 90%;
   margin: 0 auto;
   padding: 150px 0;
 }
 
-.container__cybersecurity {
-
+.quantum__computing_text {
   margin: 0 auto;
   
 }
 
-.container__cybersecurity > div {
+.container__quantum-computing_text > div {
   display: flex;
 }
 
-.container__cybersecurity > div .uxui {
+.container__quantum-computing_text > div .uxui {
   margin-left: 10px;
 }
 
 
-.cybersecurity_text h2 {
+.quantum__computing_text h2 {
   font-size: 2.5rem;
-}
-
-.technologies__cybersecurity {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.technologies__cybersecurity {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
 }
 
 
@@ -124,7 +113,9 @@
 
 .container__education .button-title-account {
   border: none;
-  background-color: #fff;
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #00614a;
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;

@@ -30,76 +30,76 @@ import Cloudflare from '../../assets/briefcase/svgs/cloudflare.svg'
 
 
 const Experience: React.FC = () => {
-  return (
-    <div className='experience'>
-      <p className='title__experience'>Experience</p>
-      <div className='warning__title'>
-        <p>Some of the projects are not yet finished</p>
-      </div>
-      <div className='experience__container'>
-        
-        <div className='experience__card'>
-            <p>Tripnow</p>
-            <p>Front-End</p>
-            <div>
-                <p>I refactored and optimized the front-end code, updated the frameworks to the latest versions, and resolved the tickets assigned to me.</p>
+    return (
+        <div className='experience'>
+            <p className='title__experience'>Experience</p>
+            <div className='warning__title'>
+                <p>Some of the projects are not yet finished</p>
             </div>
-            <div className='technologies___card_container'>
-                <img src={github} width={35} alt="icono de react"/>
-                <img src={git} width={35} alt="icono de react"/>
-                <img src={CSS} width={30} alt="icono de css" />
-                <img src={Bootstrap} width={40} alt="icono de boostrap" />
-                <img src={JavaScript} width={30} alt="icono de javascript" />
-            </div>      
-        </div>
-        <div className='experience__card'>
-            <p>Hiplot</p>
-            <p>Front-End</p>
-            <div>
-                <p>I lead the front-end development of the company's internal projects.</p>
-                <div className='technologies___card_container'>
-                    <img src={github} width={35} alt="icono de react"/>
-                    <img src={git} width={35} alt="icono de react"/>
-                    <img src={ReactSvg} width={35} alt="icono de react"/>
-                    <img src={Angular} width={30} alt="icono de angular"/> 
-                    <img src={Zustand} width={40} alt="" />
-                    <img src={CSS} width={30} alt="icono de css" />
-                    <img src={Bootstrap} width={40} alt="icono de boostrap" />
-                    <img src={TypeScript} width={30} alt="icono de typescript" />
-                    <img src={JavaScript} width={30} alt="icono de javascript" />
-                </div>
-            </div>
-        </div>
+            <div className='experience__container'>
 
-        <div className='experience__card'>
-            <div className='content__title'>
-                <p>Proyect</p>
-                <p className='ecommerce'>Ecommerce</p>
-            </div>
-            <p className='type'>Full Stack</p>
-            <div className='technologies___card_container'>
-                <img src={ReactSvg} width={35} alt="icono de react"/>
-                <img src={Redux} width={30} alt="icono de redux"/>
-                <img src={CSS} width={30} alt="icono de css" />
-                <img src={TypeScript} width={30} alt="icono de typescript" />
-                <img src={NestJS} width={30} alt="icono de nestjs" />
-                <img src={AmazonWebServices} width={30} alt="icono de amazon web services" />
-                <img src={MongoDB} width={15} alt="icono de mongodb" />
-                <img src={Cloudflare} width={40} alt="icono de cloudflare" />
-            </div>
-            <div>
-            <p>
-                I was responsible for conducting the entire logistics analysis to create the database and, from there, continue with the development of the back-end and front-end. 
-                Additionally, I handled the creation of the development and production environments, as well as cloud security.
-            </p>
-            </div>
-            <div className='btns__card_container'>
-                <a href="https://cms-01.vercel.app" className="btn__card" target="_blank" rel="noopener noreferrer">See CRM</a>
-                <button className='btn__card'>See Ecommer</button>
-                <a href="https://back-ecommerce-bjt2.onrender.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
-            </div>
-        </div>
-        {/* <div className='experience__card'>
+                <div className='experience__card'>
+                    <p translate="no">Tripnow</p>
+                    <p translate="no">Front-End</p>
+                    <div>
+                        <p>I refactored and optimized the front-end code, updated the frameworks to the latest versions, and resolved the tickets assigned to me.</p>
+                    </div>
+                    <div className='technologies___card_container'>
+                        <img src={github} width={35} alt="icono de react" />
+                        <img src={git} width={35} alt="icono de react" />
+                        <img src={CSS} width={30} alt="icono de css" />
+                        <img src={Bootstrap} width={40} alt="icono de boostrap" />
+                        <img src={JavaScript} width={30} alt="icono de javascript" />
+                    </div>
+                </div>
+                <div className='experience__card'>
+                    <p translate="no">Hiplot</p>
+                    <p translate="no">Front-End</p>
+                    <div>
+                        <p>I lead the front-end development of the company's internal projects.</p>
+                        <div className='technologies___card_container'>
+                            <img src={github} width={35} alt="icono de react" />
+                            <img src={git} width={35} alt="icono de react" />
+                            <img src={ReactSvg} width={35} alt="icono de react" />
+                            <img src={Angular} width={30} alt="icono de angular" />
+                            <img src={Zustand} width={40} alt="" />
+                            <img src={CSS} width={30} alt="icono de css" />
+                            <img src={Bootstrap} width={40} alt="icono de boostrap" />
+                            <img src={TypeScript} width={30} alt="icono de typescript" />
+                            <img src={JavaScript} width={30} alt="icono de javascript" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className='experience__card'>
+                    <div className='content__title'>
+                        <p>Proyect</p>
+                        <p className='ecommerce' translate="no">Ecommerce</p>
+                    </div>
+                    <p className='type'>Full Stack</p>
+                    <div className='technologies___card_container'>
+                        <img src={ReactSvg} width={35} alt="icono de react" />
+                        <img src={Redux} width={30} alt="icono de redux" />
+                        <img src={CSS} width={30} alt="icono de css" />
+                        <img src={TypeScript} width={30} alt="icono de typescript" />
+                        <img src={NestJS} width={30} alt="icono de nestjs" />
+                        <img src={AmazonWebServices} width={30} alt="icono de amazon web services" />
+                        <img src={MongoDB} width={15} alt="icono de mongodb" />
+                        <img src={Cloudflare} width={40} alt="icono de cloudflare" />
+                    </div>
+                    <div>
+                        <p>
+                            I was responsible for conducting the entire logistics analysis to create the database and, from there, continue with the development of the back-end and front-end.
+                            Additionally, I handled the creation of the development and production environments, as well as cloud security.
+                        </p>
+                    </div>
+                    <div className='btns__card_container'>
+                        <a href="https://cms-01.vercel.app" className="btn__card" target="_blank" rel="noopener noreferrer">See CRM</a>
+                        <button className='btn__card'>See Ecommer</button>
+                        <a href="https://back-ecommerce-bjt2.onrender.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
+                    </div>
+                </div>
+                {/* <div className='experience__card'>
             <div className='content__title'>
                 <p>Frelance</p>
                 <p className='ecommerce'>Ecommerce</p>
@@ -127,32 +127,32 @@ const Experience: React.FC = () => {
                 <a href="https://back-ecommerce-bjt2.onrender.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
             </div>
         </div> */}
-        <div className='experience__card'>
-            <div className='content__title'>
-                <p>Proyect</p>
-                <p className='crm'>Ecomerce</p>
-            </div>
-            <p className='type'>Full Stack</p>
-            <div className='technologies___card_container'>
-                <img src={Angular} width={30} alt="icono de angular" /> 
-                <img src={CSS} width={30} alt="icono de css" />
-                  <img src={TypeScript} width={30} alt="icono de typescript" />
-                <img src={AmazonWebServices} width={30} alt="icono de amazon web services" />
-                <img src={MongoDB} width={15} alt="icono de mongodb" />
-                <img src={Cloudflare} width={40} alt="icono de cloudflare" />
-            </div>
-            <div>
-                <p>
-                    Likewise, I was in charge of carrying out all the logistics analysis to start with the database, back, front, development and production.
-                </p>
-            </div>
-            <div className='btns__card_container'>
-                <a href="https://cms-02.vercel.app" className="btn__card" target="_blank" rel="noopener noreferrer">See CRM</a>
-                <button className='btn__card'>See Ecommer</button>
-                <a href="https://back-ecommerce-bjt2.onrender.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
-            </div>
-        </div>
-        {/* <div className='experience__card'>
+                <div className='experience__card'>
+                    <div className='content__title'>
+                        <p>Proyect</p>
+                        <p className='crm' translate="no">Ecomerce</p>
+                    </div>
+                    <p className='type'>Full Stack</p>
+                    <div className='technologies___card_container'>
+                        <img src={Angular} width={30} alt="icono de angular" />
+                        <img src={CSS} width={30} alt="icono de css" />
+                        <img src={TypeScript} width={30} alt="icono de typescript" />
+                        <img src={AmazonWebServices} width={30} alt="icono de amazon web services" />
+                        <img src={MongoDB} width={15} alt="icono de mongodb" />
+                        <img src={Cloudflare} width={40} alt="icono de cloudflare" />
+                    </div>
+                    <div>
+                        <p>
+                            Likewise, I was in charge of carrying out all the logistics analysis to start with the database, back, front, development and production.
+                        </p>
+                    </div>
+                    <div className='btns__card_container'>
+                        <a href="https://cms-02.vercel.app" className="btn__card" target="_blank" rel="noopener noreferrer">See CRM</a>
+                        <button className='btn__card'>See Ecommer</button>
+                        <a href="https://back-ecommerce-bjt2.onrender.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
+                    </div>
+                </div>
+                {/* <div className='experience__card'>
             <div className='content__title'>
                 <p>Frelance</p>
                 <p className='crm'>Algoritmos</p>
@@ -195,9 +195,9 @@ const Experience: React.FC = () => {
                 <a href="https://back-ecommerce-bjt2.onrender.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
             </div>
         </div> */}
-      </div>
-    </div>
-  )
+            </div>
+        </div>
+    )
 }
 
 export default Experience

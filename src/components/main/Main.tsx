@@ -3,6 +3,7 @@ import './Main.css'
 import Technologies from './Technologies'
 // import nmanp from '../../assets/briefcase/sitelogo-2x.png'
 import cedulaPDF from '../../assets/briefcase/pdfs/LOCJ010420HCSPRRA3.pdf'
+import Tools from './Tools'
 
 const Main: React.FC = () => {
     return (
@@ -67,6 +68,7 @@ const Main: React.FC = () => {
                 </div>
                
             </section>
+            <Tools />
             <Technologies />
 
         </section>

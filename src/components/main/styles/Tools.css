@@ -6,7 +6,7 @@
 
 .tools__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
     row-gap: 40px;
 }
@@ -14,4 +14,12 @@
 .tools__container> div {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .tools__container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+    }
 }

@@ -54,16 +54,17 @@ const Main: React.FC = () => {
             </section>
             <section className='quantum__computing'>
                 <div className="quantum__computing_text">
-                    <h2>Quantum computing</h2>
+                    <h2>Concepts</h2>
                 </div>
                 <div className="container__quantum-computing_text">
-                    {/* <div>
-                        <p className='title__hero'>Matemáticas</p>
-                        <p className='title__hero'>Física Cuántica</p>
-                        <p className='title__hero'>Programación Cuántica</p>
-                    </div> */}
+                    <div>
+                        <p className='title__hero'>Software architecture</p>
+                        <p className='title__hero'>Algorithm architecture</p>
+                        <p className='title__hero'>Data structure</p>
+                        <p className='title__hero'>Design patterns</p>
+                    </div>
                     <p className='content'>
-                        My interest in quantum computing goes beyond the basics. I have adopted a structured approach to delve deeper into this field and make it part of my personal projects.
+                        I have delved deeper into concepts such as Software Architecture, Algorithm Architecture, Design Patterns
                     </p>
                 </div>
                

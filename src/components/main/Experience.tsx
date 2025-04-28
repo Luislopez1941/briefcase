@@ -20,8 +20,6 @@ import NestJS from '../../assets/briefcase/svgs/nestjs.svg'
 // import Python from '../../assets/briefcase/svgs/python.svg'
 // import FastAPI from '../../assets/briefcase/svgs/fastapi.svg'
 // import MySQL from '../../assets/briefcase/svgs/mysql.svg'
-import MongoDB from '../../assets/briefcase/svgs/mongodb.svg'
-import AmazonWebServices from '../../assets/briefcase/svgs/aws.svg'
 import Cloudflare from '../../assets/briefcase/svgs/cloudflare.svg'
 
 

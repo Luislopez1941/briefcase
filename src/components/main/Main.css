@@ -36,6 +36,7 @@
   color: var(--color-yellow);
   border-radius: 5px;
   font-weight: 600;
+  margin: 0;
 }
 
 
@@ -53,7 +54,10 @@
 }
 
 .container__quantum-computing_text > div {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
 }
 
 .container__quantum-computing_text > div .uxui {
@@ -140,5 +144,13 @@
       margin: 0 auto;
   
   }
+
+  .container__quantum-computing_text > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  
+  }
+  
 
 }

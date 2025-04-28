@@ -20,10 +20,40 @@
     
 }
 
-.experience__card > .content__title {
+.experience__card .row__one {
     display: flex;
     justify-content: space-between;
 }
+
+.experience__card .proservicios {
+    background-image: url('../../../assets/briefcase/imgs/proservicios.png');
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+.experience__card .point-of-sale {
+    background-image: url('../../../assets/briefcase/imgs/point-sale.png');
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+.experience__card .crm__gym {
+    background-image: url('../../../assets/briefcase/imgs/crm-gym.png');
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+
+
 
 .ecommerce {
     background-color: #EC6A52;

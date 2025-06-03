@@ -36,7 +36,7 @@ const Experience: React.FC = () => {
             </div>
             <div className='experience__container'>
 
-                <div className='experience__card'>
+                {/* <div className='experience__card'>
                     <p translate="no">Tripnow</p>
                     <p translate="no">Front-End</p>
                     <div>
@@ -68,7 +68,7 @@ const Experience: React.FC = () => {
                             <img src={JavaScript} width={30} alt="icono de javascript" />
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className='experience__card'>
                     <div className='row__one'>
@@ -158,13 +158,12 @@ const Experience: React.FC = () => {
                     </div>
                     <div>
                         <p>
-                            Likewise, I was in charge of carrying out all the logistics analysis to start with the database, back, front, development and production.
+                            This is a personal project I started where professionals can offer their services, send job proposals directly through messages, and manage them. Clients will be able to post the jobs they need. I currently have the beta version ready with the backend, but I haven’t uploaded it yet because I can’t make it public anymore.
                         </p>
                     </div>
                     <div className='btns__card_container'>
-                        <a href="https://github.com/Luislopez1941" className="btn__card" target="_blank" rel="noopener noreferrer">See CRM</a>
-                        {/* <button className='btn__card'>See Ecommer</button> */}
-                        <a href="https://back-ecommerce-bjt2.onrender.com" className="btn__card" target="_blank" rel="noopener noreferrer">Doc Back</a>
+                        <a href="https://proservicios.vercel.app" className="btn__card" target="_blank" rel="noopener noreferrer">See</a>
+
                     </div>
                 </div>
                 {/* <div className='experience__card'>

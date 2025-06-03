@@ -3,19 +3,17 @@ import './styles/Experience.css'
 import Zustand from '../../assets/briefcase/svgs/zustand.svg'
 
 
-import github from '../../assets/briefcase/svgs/github-dark.svg'
-import git from '../../assets/briefcase/svgs/git.svg'
+
 import ReactSvg from '../../assets/briefcase/svgs/react.svg'
-import Angular from '../../assets/briefcase/svgs/angular.svg'
+
 // import Nextjs from '../../assets/briefcase/svgs/nextjs_icon_dark.svg'
 // import Vue from '../../assets/briefcase/svgs/vue.svg'
 import Pinia from '../../assets/briefcase/svgs/pinia.svg'
 import Redux from '../../assets/briefcase/svgs/redux.svg'
 import CSS from '../../assets/briefcase/svgs/css.svg'
-import Bootstrap from '../../assets/briefcase/svgs/bootstrap.svg'
+
 // import TailwindCSS from '../../assets/briefcase/svgs/tailwindcss.svg'
 import TypeScript from '../../assets/briefcase/svgs/typescript.svg'
-import JavaScript from '../../assets/briefcase/svgs/javascript.svg'
 import NestJS from '../../assets/briefcase/svgs/nestjs.svg'
 // import Python from '../../assets/briefcase/svgs/python.svg'
 // import FastAPI from '../../assets/briefcase/svgs/fastapi.svg'

@@ -61,6 +61,15 @@
 
 }
 
+.profile-photo__conatiner_left {
+  display: none;
+}
+
+.profile-photo__conatiner_left .profile-photo-left {
+  border-radius: 20px;
+  border: 4px solid white;
+}
+
 .cta_one {
   display: flex;
   align-items: center;
@@ -125,8 +134,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   border: 4px solid white;
   object-fit: cover;
@@ -134,217 +143,14 @@
   z-index: 10;
 }
 
-/* Contenedores de anillos ovalados */
-.orbit {
-  position: absolute;
-  border: 0.5px solid rgba(56, 56, 56, 0.76);
-  border-radius: 50%;
-  transform-origin: center center;
-  box-shadow: 0 0 25px rgba(4, 9, 85, 0.76);
-  /* Resplandor azul tenue */
-}
-
-/* Primer anillo */
-.orbit1 {
-  width: 450px;
-  height: 200px;
-  animation: rotate 10s linear infinite;
-}
-
-
-.orbit2 {
-  width: 450px;
-  height: 200px;
-  animation: rotateReverse 14s linear infinite;
-}
-
-
-.orbit3 {
-  width: 350px;
-  height: 170px;
-  animation: rotateOrbit 8s linear infinite;
-}
-
-.orbit4 {
-  width: 350px;
-  height: 170px;
-  animation: rotateOrbit2 8s linear infinite;
-
-}
-
-/* Animación de rotación para orbit3 (gira desde 90 grados) */
-@keyframes rotateOrbit {
-  0% {
-    transform: rotate(90deg);
-    /* Empieza rotada a 90 grados */
-  }
-
-  100% {
-    transform: rotate(450deg);
-    /* Rota a 450 grados (5 revoluciones) */
-  }
-}
-
-/* Animación de rotación para orbit4 (gira desde 0 grados) */
-@keyframes rotateOrbit2 {
-  0% {
-    transform: rotate(0deg);
-    /* Empieza sin rotación */
-  }
-
-  100% {
-    transform: rotate(360deg);
-    /* Rota a 360 grados (1 revolución) */
-  }
-}
-
-/* .orbit5 {
-  width: 120px;
-  height: 120px;
-  border-radius: 0;
-  animation: rotate 20s linear infinite;
-} */
-
-/* Imágenes dentro de los anillos, posicionadas fijas y centradas verticalmente */
-.orbit img {
-  position: absolute;
-
-
-  object-fit: contain;
-  pointer-events: auto;
-}
-
-
-/* orbit1: 3 iconos */
-.orbit1 img:nth-child(1) {
-  bottom: 70px;
-  left: -20px;
-}
-
-.orbit1 img:nth-child(2) {
-  left: 230px;
-  top: -20px;
-}
-
-.orbit1 img:nth-child(3) {
-  bottom: 70px;
-  right: -20px;
-}
-
-.orbit1 img:nth-child(4) {
-  left: 230px;
-  bottom: -20px;
-}
-
-/* orbit2: 3 iconos */
-.orbit2 img:nth-child(1) {
-  bottom: 70px;
-  left: -20px;
-}
-
-.orbit2 img:nth-child(2) {
-  left: 230px;
-  top: -20px;
-}
-
-.orbit2 img:nth-child(3) {
-  bottom: 70px;
-  right: -20px;
-}
-
-.orbit2 img:nth-child(4) {
-  left: 230px;
-  bottom: -20px;
-}
-
-
-/* orbit3: 4 iconos */
-.orbit3 img:nth-child(1) {
-  bottom: 60px;
-  left: -20px;
-}
-
-.orbit3 img:nth-child(2) {
-  left: 155px;
-  top: -20px;
-}
-
-.orbit3 img:nth-child(3) {
-  bottom: 60px;
-  right: -20px;
-}
-
-.orbit3 img:nth-child(4) {
-  left: 155px;
-  bottom: -20px;
-}
-
-/* orbit3: 4 iconos */
-.orbit4 img:nth-child(1) {
-  bottom: 60px;
-  left: -20px;
-}
-
-.orbit4 img:nth-child(2) {
-  left: 155px;
-  top: -20px;
-}
-
-.orbit4 img:nth-child(3) {
-  bottom: 60px;
-  right: -20px;
-}
-
-.orbit4 img:nth-child(4) {
-  left: 155px;
-  bottom: -20px;
-}
-
-.orbit5 img:nth-child(1) {
-  bottom: 70px;
-  left: -20px;
-}
-
-.orbit5 img:nth-child(2) {
-  left: 230px;
-  top: -20px;
-}
-
-.orbit5 img:nth-child(3) {
-  bottom: 70px;
-  right: -20px;
-}
-
-.orbit5 img:nth-child(4) {
-  left: 230px;
-  bottom: -20px;
-}
-
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes rotateReverse {
-  0% {
-    transform: rotate(360deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
 
 
 
 @media screen and (max-width: 768px) {
+
+  .profile-photo__conatiner_left {
+    display: block;
+  }
 
   .container__main {
     display: grid;
@@ -352,7 +158,7 @@
   }
 
   .right {
-    height: 400px;
+    display: none;
   }
 
   .background__layout {

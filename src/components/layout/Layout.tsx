@@ -3,32 +3,6 @@ import './Layout.css'
 import cv from '../../assets/briefcase/pdfs/CV-Mid_developer.pdf'
 import photoProfile from '../../assets/IMG_1835.JPG.jpg'
 
-import Github from '../../assets/briefcase/svgs/github-dark.svg'
-import Git from '../../assets/briefcase/svgs/git.svg'
-import Docker from '../../assets/briefcase/svgs/docker.svg'
-import Cloudflare from '../../assets/briefcase/svgs/cloudflare.svg'
-
-
-import ReactSvg from '../../assets/briefcase/svgs/react.svg'
-import Nextjs from '../../assets/briefcase/svgs/nextjs_icon_dark.svg'
-import Angular from '../../assets/briefcase/svgs/angular.svg'
-import Vue from '../../assets/briefcase/svgs/vue.svg'
-import Pinia from '../../assets/briefcase/svgs/pinia.svg'
-import Redux from '../../assets/briefcase/svgs/redux.svg'
-import Zustand from '../../assets/briefcase/svgs/zustand.svg'
-import CSS from '../../assets/briefcase/svgs/css.svg'
-
-
-
-import TypeScript from '../../assets/briefcase/svgs/typescript.svg'
-import NestJS from '../../assets/briefcase/svgs/nestjs.svg'
-import Python from '../../assets/briefcase/svgs/python.svg'
-
-import MySQL from '../../assets/briefcase/svgs/mysql.svg'
-
-
-
-
 const Layout: React.FC = () => {
     return (
         <section className="layotu">
@@ -38,8 +12,11 @@ const Layout: React.FC = () => {
                         <div className="left__content">
                             <h1>Software Engineer</h1>
                             <h3>
-                                I am a developer specialized in creating innovative digital solutions for both web and mobile platforms.
+                                Full stack programmer
                             </h3>
+                            <div className="profile-photo__conatiner_left">
+                                <img className="profile-photo-left" src={photoProfile} alt="profile" />
+                            </div>
                             <div className='icons'>
                                 <a>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z" /></svg>
@@ -64,40 +41,6 @@ const Layout: React.FC = () => {
                 <div className="right">
                     <div className="background__layout">
                         <img className="profile-photo" src={photoProfile} alt="profile" />
-
-                        <div className="orbit orbit1">
-                            <img src={ReactSvg} width={40 } height={40 } alt="React" />
-                            <img src={Nextjs} width={40 } height={40 } alt="Next.js" />
-                            <img src={Angular} width={40 } height={40 } alt="Angular" />
-                            <img src={Vue} width={40 } height={40 } alt="Vue" />
-                        </div>
-
-                        <div className="orbit orbit2">
-                            <img src={Redux} width={40 } height={40 } alt="Redux" />
-                            <img src={Pinia} width={40 } height={40 } alt="Pinia" />
-                            <img src={Zustand} width={40 } height={40 } alt="Zustand" />
-                            <img src={CSS} width={35 } height={35 } alt="CSS" />
-                        </div>
-
-                        <div className="orbit orbit3">
-                            <img src={NestJS} width={40} height={40} alt="CSS" />
-                            <img src={TypeScript} width={30} height={30} alt="TypeScript" />
-                            <img src={NestJS} width={40} height={40} alt="NestJS" />
-                            <img src={Python}width={60} height={60} alt="Python" />
-                        </div>
-                        <div className="orbit orbit4">
-                            <img src={MySQL} width={40} height={40} alt="CSS" />
-                            <img src={Cloudflare} width={40} height={40} alt="TypeScript" />
-                            <img src={Docker} width={40} height={40} alt="NestJS" />
-                            <img src={Github} width={40} height={40} alt="Python" />
-                        </div>
-                        <div className="orbit orbit5">
-                            <img src={Git} alt="CSS" />
-                            <img src={Github} alt="TypeScript" />
-                            <img src={Docker} alt="NestJS" />
-                            <img src={Cloudflare} alt="Python" />
-                        </div>
-
                     </div>
                 </div>
 

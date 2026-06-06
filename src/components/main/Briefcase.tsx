@@ -12,9 +12,12 @@ import { Pagination } from 'swiper/modules';
 
 const Briefcase: React.FC = () => {
   return (
-    <div className='briefcase'>
-        <div>
-            <p className='title__briefcase'>Briefcase</p>
+    <div className='briefcase page-container' id="briefcase">
+        <div className="briefcase__header">
+            <p className='title__briefcase'>Portafolio</p>
+            <p className="briefcase__subtitle">
+                Galería de interfaces y productos digitales desarrollados — e-commerce, CMS y plataformas web.
+            </p>
         </div>
         <Swiper
             pagination={{

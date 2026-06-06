@@ -1,41 +1,71 @@
-.technologies {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.technologies__container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    row-gap: 30px;
-    column-gap: 10px;
-}
-
-.technologies__container > div {
-    display: flex;
-    justify-content: center;
-}
-
-@media screen and (max-width: 768px) {
-    .technologies__container {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-}
-
-@media screen and (max-width: 500px) {
-    .technologies__container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-    }
-    
-
+.technologies,
+.tools {
+  width: 100%;
+  padding: var(--section-gap) 0;
 }
 
 .title__technologies {
-    font-size: 2.5rem;
-    font-weight: 600;
-    padding: 20px 0;
-    margin: 15px 0;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 600;
+  margin: 0 0 2rem;
+  color: var(--color-white);
+}
+
+.title__technologies::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-yellow), transparent);
+  border-radius: var(--radius-full);
+  margin-top: 0.75rem;
+}
+
+.technologies__container,
+.tools__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 1rem;
+}
+
+.technologies__container > div,
+.tools__container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  transition: border-color var(--transition), transform var(--transition), background var(--transition);
+}
+
+.technologies__container > div:hover,
+.tools__container > div:hover {
+  border-color: var(--color-border-hover);
+  background: var(--color-surface-elevated);
+  transform: translateY(-3px);
+}
+
+.technologies__container > div svg,
+.technologies__container > div img,
+.tools__container > div svg {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .technologies__container,
+  .tools__container {
+    grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+    gap: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .technologies__container,
+  .tools__container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

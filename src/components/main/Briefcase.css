@@ -1,54 +1,92 @@
+.briefcase {
+  width: 100%;
+  padding: var(--section-gap) 0;
+}
 
+.title__briefcase {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  color: var(--color-white);
+}
+
+.briefcase__subtitle {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  margin: 1rem 0 2rem;
+  max-width: 560px;
+}
+
+.title__briefcase::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-yellow), transparent);
+  border-radius: var(--radius-full);
+  margin-top: 0.75rem;
+}
 
 .swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  padding-bottom: 3rem !important;
+}
 
-  }
-  
-  .title__briefcase {
-    font-size: 2.3rem;
-    font-weight: 600;
-    padding: 0 20px;
-    margin: 15px 0;
-  }
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
 
+.briefcase__card {
+  width: 100%;
+  height: 320px;
+}
+
+.briefcase__card_container {
+  height: 100%;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+  background: var(--color-surface);
+  transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+
+.briefcase__card:hover .briefcase__card_container {
+  border-color: var(--color-border-hover);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.ecommerce-01 {
+  background-image: url('../../assets//commerce.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.cms-01 {
+  background-image: url('../../assets/briefcase/cms-01.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-pagination-bullet {
+  background: var(--color-text-muted) !important;
+  opacity: 0.5 !important;
+  width: 8px !important;
+  height: 8px !important;
+  transition: all var(--transition) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-yellow) !important;
+  opacity: 1 !important;
+  width: 24px !important;
+  border-radius: var(--radius-full) !important;
+}
+
+@media screen and (max-width: 992px) {
   .briefcase__card {
-    height: 300px;
-    width: 100%;
-    padding: 0 20px 40px 20px;
-
+    height: 240px;
   }
-
-  .briefcase__card_container {
-   
-  }
-
-  .ecommerce-01 {
-    height: 100%;
-    background-image: url('../../assets//commerce.png');
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-  }
-  
-  .cms-01 {
-    height: 100%;
-    background-image: url('../../assets/briefcase/cms-01.png');
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-  }
-
-  .swiper-pagination-bullet {
-    background-color: #ffffff;
-  }
-  
+}

@@ -7,8 +7,8 @@ import Python from '../../assets/briefcase/svgs/python.svg'
 const Technologies: React.FC = () => {
 
     return (
-        <div className='technologies'>
-            <h2 className='title__technologies'>Technologies</h2>
+        <div className='technologies page-container'>
+            <h2 className='title__technologies'>Tecnologías</h2>
 
             <div className='technologies__container'>
                 <div>
